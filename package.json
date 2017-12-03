@@ -1,0 +1,33 @@
+{
+  "name": "webpack_trial",
+  "version": "1.0.0",
+  "description": "webpack try",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js"
+  },
+  "author": "Spencer Crews",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.8",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.8",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "vue-dev-server": "^2.0.4",
+    "eslint": "^3.19.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0"
+  }
+}
